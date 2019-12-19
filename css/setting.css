@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Comfortaa';
+  font-display: swap;
+  font-style: normal;
+  font-weight: normal;
+  src: url(../fonts/Comfortaa-VariableFontwght.woff2) format(woff2), url(../fonts/Comfortaa-VariableFontwght.woff) format(woff);
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: 'Comfortaa', sans-serif;
+}
+/*# sourceMappingURL=setting.css.map */

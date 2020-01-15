@@ -158,7 +158,13 @@ body, html {
     color: #fff;
     -webkit-filter: blur(1px);
             filter: blur(1px);
-    text-shadow: 0 0 1px #00b3ff, 0 0 2px #00b3ff, 0 0 5px #00b3ff, 0 0 6px #00b3ff, 0 0 10px #00b3ff, 0 0 15px #00b3ff, 0 0 20px #00b3ff;
+    text-shadow: 0 0 1px #00b3ff,
+ 0 0 2px #00b3ff,
+ 0 0 5px #00b3ff,
+ 0 0 6px #00b3ff,
+ 0 0 10px #00b3ff,
+ 0 0 15px #00b3ff,
+ 0 0 20px #00b3ff;
   }
   20% {
     color: #32333fc7;
@@ -173,7 +179,13 @@ body, html {
     color: #fff;
     -webkit-filter: blur(1px);
             filter: blur(1px);
-    text-shadow: 0 0 1px #00b3ff, 0 0 2px #00b3ff, 0 0 5px #00b3ff, 0 0 6px #00b3ff, 0 0 10px #00b3ff, 0 0 15px #00b3ff, 0 0 20px #00b3ff;
+    text-shadow: 0 0 1px #00b3ff,
+ 0 0 2px #00b3ff,
+ 0 0 5px #00b3ff,
+ 0 0 6px #00b3ff,
+ 0 0 10px #00b3ff,
+ 0 0 15px #00b3ff,
+ 0 0 20px #00b3ff;
   }
   20% {
     color: #32333fc7;
@@ -285,8 +297,10 @@ body, html {
 .header_language_input:checked:after {
   left: 38px;
   background: #63cdff;
-  -webkit-box-shadow: 0 0 5px #13b3ff, 0 0 15px #13b3ff;
-          box-shadow: 0 0 5px #13b3ff, 0 0 15px #13b3ff;
+  -webkit-box-shadow: 0 0 5px #13b3ff,
+ 0 0 15px #13b3ff;
+          box-shadow: 0 0 5px #13b3ff,
+ 0 0 15px #13b3ff;
 }
 
 .header_language span {
@@ -961,6 +975,21 @@ body, html {
   background-size: cover;
 }
 
+.portfolio .work-six {
+  background: url(../img/portfolio/site7.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.portfolio .work-seven {
+  background: url(../img/portfolio/site8.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.portfolio .work-eight {
+  background: url(../img/portfolio/weather.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
 /*    <     575px  */
 @media screen and (max-width: 575px) {
   .portfolio_wrap {
@@ -1201,8 +1230,10 @@ body, html {
     height: 50px;
     width: 50px;
     padding: 10px 0;
-    -webkit-box-shadow: 0 0 2px #000, 0 0 6px #000;
-            box-shadow: 0 0 2px #000, 0 0 6px #000;
+    -webkit-box-shadow: 0 0 2px #000,
+ 0 0 6px #000;
+            box-shadow: 0 0 2px #000,
+ 0 0 6px #000;
     border-radius: 10px;
     position: absolute;
     background: -webkit-gradient(linear, right top, left top, from(#642B73), to(#c6426e));

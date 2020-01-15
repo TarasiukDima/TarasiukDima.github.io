@@ -2,6 +2,7 @@
 /*         variables         */
 /*    Media     */
 /*    Media     */
+@import url(e:\Progect\progect 8 My Portfolio\css\media.css);
 @font-face {
   font-family: 'Comfortaa';
   font-display: swap;
@@ -158,13 +159,7 @@ body, html {
     color: #fff;
     -webkit-filter: blur(1px);
             filter: blur(1px);
-    text-shadow: 0 0 1px #00b3ff,
- 0 0 2px #00b3ff,
- 0 0 5px #00b3ff,
- 0 0 6px #00b3ff,
- 0 0 10px #00b3ff,
- 0 0 15px #00b3ff,
- 0 0 20px #00b3ff;
+    text-shadow: 0 0 1px #00b3ff, 0 0 2px #00b3ff, 0 0 5px #00b3ff, 0 0 6px #00b3ff, 0 0 10px #00b3ff, 0 0 15px #00b3ff, 0 0 20px #00b3ff;
   }
   20% {
     color: #32333fc7;
@@ -179,13 +174,7 @@ body, html {
     color: #fff;
     -webkit-filter: blur(1px);
             filter: blur(1px);
-    text-shadow: 0 0 1px #00b3ff,
- 0 0 2px #00b3ff,
- 0 0 5px #00b3ff,
- 0 0 6px #00b3ff,
- 0 0 10px #00b3ff,
- 0 0 15px #00b3ff,
- 0 0 20px #00b3ff;
+    text-shadow: 0 0 1px #00b3ff, 0 0 2px #00b3ff, 0 0 5px #00b3ff, 0 0 6px #00b3ff, 0 0 10px #00b3ff, 0 0 15px #00b3ff, 0 0 20px #00b3ff;
   }
   20% {
     color: #32333fc7;
@@ -297,10 +286,8 @@ body, html {
 .header_language_input:checked:after {
   left: 38px;
   background: #63cdff;
-  -webkit-box-shadow: 0 0 5px #13b3ff,
- 0 0 15px #13b3ff;
-          box-shadow: 0 0 5px #13b3ff,
- 0 0 15px #13b3ff;
+  -webkit-box-shadow: 0 0 5px #13b3ff, 0 0 15px #13b3ff;
+          box-shadow: 0 0 5px #13b3ff, 0 0 15px #13b3ff;
 }
 
 .header_language span {
@@ -1230,10 +1217,8 @@ body, html {
     height: 50px;
     width: 50px;
     padding: 10px 0;
-    -webkit-box-shadow: 0 0 2px #000,
- 0 0 6px #000;
-            box-shadow: 0 0 2px #000,
- 0 0 6px #000;
+    -webkit-box-shadow: 0 0 2px #000, 0 0 6px #000;
+            box-shadow: 0 0 2px #000, 0 0 6px #000;
     border-radius: 10px;
     position: absolute;
     background: -webkit-gradient(linear, right top, left top, from(#642B73), to(#c6426e));

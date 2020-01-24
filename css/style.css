@@ -977,6 +977,11 @@ body, html {
   background-size: cover;
 }
 
+.portfolio .work-nine {
+  background: url(../img/portfolio/about/site9.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
 /*    <     575px  */
 @media screen and (max-width: 575px) {
   .portfolio_wrap {

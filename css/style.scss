@@ -561,7 +561,7 @@
                         height: 100%;
                         fill: none;
                         stroke: $ProcentGrey;
-                        stroke-width: 5;
+                        stroke-width: 10;
                         stroke-linecap: round;
                         transform: translate(5px, 5px);
                         stroke-dasharray: 440;
@@ -591,10 +591,10 @@
         transform: rotate(20deg);
     }
     &:nth-child(4) svg{
-        transform: rotate(40deg);
+        transform: rotate(30deg);
     }
     &:nth-child(5) svg{
-        transform: rotate(45deg);
+        transform: rotate(30deg);
     }
 }
 /*  rotate svg right  */
@@ -614,11 +614,11 @@
         stroke: #0FF2FB;
     };
     &:nth-child(4)  svg circle:nth-child(2){
-        stroke-dasharray: 352;
+        stroke-dasharray: 374;
         stroke: #36FC09;
     };
     &:nth-child(5)  svg circle:nth-child(2){
-        stroke-dasharray: 330;
+        stroke-dasharray: 374;
         stroke: #C602FF;
     };
 }

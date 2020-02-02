@@ -685,7 +685,7 @@ body, html {
   height: 100%;
   fill: none;
   stroke: #ededed;
-  stroke-width: 5;
+  stroke-width: 10;
   stroke-linecap: round;
   -webkit-transform: translate(5px, 5px);
           transform: translate(5px, 5px);
@@ -718,13 +718,13 @@ body, html {
 }
 
 .skills_procent_box:nth-child(4) svg {
-  -webkit-transform: rotate(40deg);
-          transform: rotate(40deg);
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
 }
 
 .skills_procent_box:nth-child(5) svg {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  -webkit-transform: rotate(30deg);
+          transform: rotate(30deg);
 }
 
 /*  rotate svg right  */
@@ -745,12 +745,12 @@ body, html {
 }
 
 .skills_procent_box:nth-child(4) svg circle:nth-child(2) {
-  stroke-dasharray: 352;
+  stroke-dasharray: 374;
   stroke: #36FC09;
 }
 
 .skills_procent_box:nth-child(5) svg circle:nth-child(2) {
-  stroke-dasharray: 330;
+  stroke-dasharray: 374;
   stroke: #C602FF;
 }
 

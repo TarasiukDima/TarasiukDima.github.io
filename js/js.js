@@ -74,7 +74,7 @@ $(document).ready(function () {
     });
 
     $('.close').click(function () {
-        $('.site-example').hide(500);
+        $('.site-example').removeClass('site_active');
     });
     /*     portfolio open and load img    */
 

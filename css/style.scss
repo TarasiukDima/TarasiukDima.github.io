@@ -730,6 +730,8 @@
         }
         .site-example{
             display: none;
+            justify-content: center;
+            align-items: center;
             width: 100%;
             height: 100%;
             background: rgba(1,1,1,.9);
@@ -770,7 +772,13 @@
                     }
                 }
             }
+            ul{
+                padding: 0;
+            }
+
             .portfolio_about-site_title{
+                height: 100%;
+                padding: 50px 20px;
                 position: relative;
                 z-index: 1;
                 background: rgba(0, 0, 0, .8);
@@ -801,6 +809,10 @@
             }
         }
     }
+    .site_active{
+        display: flex;
+    }
+
     .work-one{
         background: url(../img/portfolio/portfolio1.png) no-repeat;
         background-size: cover;
@@ -837,6 +849,14 @@
         background: url(../img/portfolio/about/site9.jpg) no-repeat 50% 50%;
         background-size: cover;
     }
+    .work-ten{
+        background: url(../img/portfolio/about/site10.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    .work-elewen{
+        background: url(../img/portfolio/about/site11.jpg) no-repeat 50% 50%;
+        background-size: cover;
+    }
 }
 
 /*    <     575px  */
@@ -858,16 +878,13 @@
                 margin: 20px 0;
             }
             .site-example{
-                padding: 5% 0 0 0;
-                ul{
-                    padding: 0;
-                }
                 .close{
                     top: 0;
                     right: 30px;
                 }
                 .portfolio_about-site_title{
                     font-size: 25px;
+                    height: 100vh;
                 }
                 .portfolio_about-site_text{
                     font-size: 20px;
@@ -900,7 +917,6 @@
                 margin: 20px 0;
             }
             .site-example{
-                padding: 10% 0 0 0;
                 .close{
                     top: 30px;
                     right: 30px;
@@ -938,8 +954,6 @@
                 margin: 20px 10px;
             }
             .site-example{
-                padding: 10% 0 0 0;
-                
                 .close{
                     top: 30px;
                     right: 30px;
@@ -978,7 +992,6 @@
                 margin: 20px 10px;
             }
             .site-example{
-                padding: 10% 0 0 0;
                 .close{
                     top: 50px;
                     right: 50px;

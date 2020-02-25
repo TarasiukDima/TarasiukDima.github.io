@@ -58,7 +58,7 @@ $(document).ready(function () {
     });
     // button up
 
-    /*     portfolio open and load img    */
+    /*  portfolio open and load img    */
     var btns = $('.portfolio_work_btn');
     btns.click(function () {
         var content = $(this).next();
@@ -70,7 +70,7 @@ $(document).ready(function () {
             img.removeAttr('data-src');
         });
 
-        content.show(500);
+        content.addClass('site_active');
     });
 
     $('.close').click(function () {

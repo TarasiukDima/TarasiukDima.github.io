@@ -2,7 +2,7 @@
 /*         variables         */
 /*    Media     */
 /*    Media     */
-@import url(e:\Progect\progect 8 My Portfolio\css\media.css);
+@import url(e:\2Progect\progect 8 My Portfolio\css\media.css);
 @font-face {
   font-family: 'Comfortaa';
   font-display: swap;
@@ -646,6 +646,7 @@ body, html {
   border: 2px solid #ff0036;
   margin-top: 40px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .skills_procent_box:hover .number-circle {
@@ -845,11 +846,15 @@ body, html {
 
 .portfolio_work_btn {
   cursor: pointer;
+  border: none;
+  -webkit-box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
+          box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
 }
 
 .portfolio_work_btn:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .portfolio_work .site-example {
@@ -862,7 +867,7 @@ body, html {
           align-items: center;
   width: 1%;
   height: 1%;
-  background: rgba(1, 1, 1, 0.9);
+  background: rgba(150, 150, 150, 0.9);
   position: fixed;
   top: 0;
   left: -150%;
@@ -911,7 +916,7 @@ body, html {
 }
 
 .portfolio_work .site-example ul {
-  padding: 0;
+  padding: 0 0 0 20px;
 }
 
 .portfolio_work .site-example .portfolio_about-site_title {
@@ -1012,6 +1017,16 @@ body, html {
 
 .portfolio .work-elewen {
   background: url(../img/portfolio/about/site11.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.portfolio .work-twelve {
+  background: url(../img/portfolio/about/site6.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.portfolio .work-thirteen {
+  background: url(../img/portfolio/about/portfolio12.png) no-repeat 50% 50%;
   background-size: cover;
 }
 
@@ -1123,7 +1138,7 @@ body, html {
     margin: 50px auto;
   }
   .portfolio_work_btn {
-    width: 450px;
+    width: 30%;
     height: 300px;
     margin: 20px 10px;
   }
@@ -1188,8 +1203,8 @@ body, html {
 .footer_nav_link:hover {
   background: #DD4330;
   color: #f1d8b3;
-  -webkit-transform: scale(1.2);
-          transform: scale(1.2);
+  -webkit-transform: scale(1.2) rotate(360deg);
+          transform: scale(1.2) rotate(360deg);
 }
 
 .footer_copyr {

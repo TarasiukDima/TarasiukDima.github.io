@@ -533,6 +533,7 @@
             border: 2px solid $ForRed;
             margin-top: 40px;
             border-radius: 10px;
+            cursor: pointer;
             &:hover .number-circle{
                 transform: scale(1.5);
             }
@@ -724,8 +725,11 @@
         flex-wrap: wrap;
         &_btn{
             cursor: pointer;
+            border: none;
+            box-shadow: 0 0 15px rgba(255, 255, 255, .9);
+            border-radius: 10px;
             &:hover{
-                transform: scale(1.1);
+                transform: scale(1.05);
             }
         }
         .site-example{
@@ -736,7 +740,7 @@
             align-items: center;
             width: 1%;
             height: 1%;
-            background: rgba(1,1,1,.9);
+            background: rgba(150,150,150,.9);
             position: fixed;
             top: 0;
             left: -150%;
@@ -776,7 +780,7 @@
                 }
             }
             ul{
-                padding: 0;
+                padding: 0 0 0 20px;
             }
             .portfolio_about-site_title{
                 height: 100%;
@@ -860,6 +864,14 @@
     }
     .work-elewen{
         background: url(../img/portfolio/about/site11.jpg) no-repeat 50% 50%;
+        background-size: cover;
+    }
+    .work-twelve{
+        background: url(../img/portfolio/about/site6.jpg) no-repeat 50% 50%;
+        background-size: cover;
+    }
+    .work-thirteen{
+        background: url(../img/portfolio/about/portfolio12.png) no-repeat 50% 50%;
         background-size: cover;
     }
 }
@@ -992,7 +1004,7 @@
         }
         &_work{
             &_btn{
-                width: 450px;
+                width: 30%;
                 height: 300px;
                 margin: 20px 10px;
             }
@@ -1059,7 +1071,7 @@
             &:hover{
                 background: #DD4330;
                 color: rgb(241, 216, 179);
-                transform: scale(1.2);
+                transform: scale(1.2) rotate(360deg);
             }
         }
     }

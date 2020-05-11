@@ -34,10 +34,9 @@ $(document).ready(() => {
     /*   close menu  */
 
     /*   portfolio open and load img    */
-    const btns = $('.portfolio_work_btn');
-    btns.click(function() {
+    $('.portfolio_work_btn').click(function() {
+        console.log('lol')
         let content = $(this).next();
-        
         // lazy loading img
         $('img[data-src]').each(function() {
             let img = $(this);
@@ -45,12 +44,12 @@ $(document).ready(() => {
             img.removeAttr('data-src');
         });
 
-        content.show(500);
+        content.addClass('site_active');
+        $('.close').click(() => {
+            $('.site-example').removeClass('site_active');
+        });
     });
 
-    $('.close').click(() => {
-        $('.site-example').hide(500);
-    });
     /*   portfolio open and load img    */
 
     //text no select

@@ -850,6 +850,16 @@ body, html {
   -webkit-box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
           box-shadow: 0 0 15px rgba(255, 255, 255, 0.9);
   border-radius: 10px;
+  overflow: hidden;
+  padding: 0;
+}
+
+.portfolio_work_btn img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
 }
 
 .portfolio_work_btn:hover {
@@ -965,71 +975,6 @@ body, html {
   height: 100%;
 }
 
-.portfolio .work-one {
-  background: url(../img/portfolio/portfolio1.png) no-repeat;
-  background-size: cover;
-}
-
-.portfolio .work-two {
-  background: url(../img/portfolio/portfolio2.png) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-.portfolio .work-three {
-  background: url(../img/portfolio/portfolio3.png) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-.portfolio .work-four {
-  background: url(../img/portfolio/portfolio4.png) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-.portfolio .work-five {
-  background: url(../img/portfolio/portfolio5.png) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-.portfolio .work-six {
-  background: url(../img/portfolio/site7.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-.portfolio .work-seven {
-  background: url(../img/portfolio/site8.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-.portfolio .work-eight {
-  background: url(../img/portfolio/weather.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-.portfolio .work-nine {
-  background: url(../img/portfolio/about/site9.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-.portfolio .work-ten {
-  background: url(../img/portfolio/about/site10.jpg) no-repeat center center;
-  background-size: cover;
-}
-
-.portfolio .work-elewen {
-  background: url(../img/portfolio/about/site11.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-.portfolio .work-twelve {
-  background: url(../img/portfolio/about/site6.jpg) no-repeat 50% 50%;
-  background-size: cover;
-}
-
-.portfolio .work-thirteen {
-  background: url(../img/portfolio/about/portfolio12.png) no-repeat 50% 50%;
-  background-size: cover;
-}
-
 /*    <     575px  */
 @media screen and (max-width: 575px) {
   .portfolio_wrap {
@@ -1041,7 +986,6 @@ body, html {
     margin: 30px auto;
   }
   .portfolio_work_btn {
-    cursor: pointer;
     width: 290px;
     height: 150px;
     margin: 20px 0;
@@ -1138,7 +1082,7 @@ body, html {
     margin: 50px auto;
   }
   .portfolio_work_btn {
-    width: 30%;
+    width: 450px;
     height: 300px;
     margin: 20px 10px;
   }

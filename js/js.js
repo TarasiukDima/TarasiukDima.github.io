@@ -165,11 +165,22 @@ document.addEventListener('DOMContentLoaded', function () {
     /*    cube   end */
 
     
+    /* animate title start */
+    const position = document.querySelector('.about__facts');
+    const positionTitle = document.querySelectorAll('.title');
+    window.addEventListener('scroll', function (e) {
+	    posTop = (window.pageYOffset !== undefined) ? window.pageYOffset : (document.documentElement || document.body.parentNode || document.body).scrollTop;
 
+        if (position.offsetTop - 750 <= posTop && !position.classList.contains('fade__in')) {
+            position.classList.add('fade__in')
+        }
+
+        for (let i of positionTitle) {
+            if (i.offsetTop - 750 <= posTop && !i.classList.contains('fade__in')) {
+                i.classList.add('fade__in')
+            }
+        }
+    });
+    /* animate title end */
     
 });
-
-
-
-
-
